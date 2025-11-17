@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ Éú³ÉµÄ°üº¬ÎÄ¼ş¡£
-// ¹© BIT-Run.rc Ê¹ÓÃ
+// Microsoft Visual C++ ç”Ÿæˆçš„åŒ…å«æ–‡ä»¶ã€‚
+// ä¾› BIT-Run.rc ä½¿ç”¨
 //
 #define SOUND_GOOSE                     81
 #define SOUND_BIU                       82
@@ -11,7 +11,8 @@
 #define BIT_BADGE                       201
 #define BIRD0                           301
 #define BIRD1                           302
-#define BACKGROUND                      401
+#define BACKGROUND_1                    401
+#define BACKGROUND_2                    402
 #define GYM                             501
 #define MUSEUM                          601
 #define LIBRARY                         701
