@@ -122,7 +122,7 @@ _init_state PROC uses ecx
 	RobjLoadx @Bkg1,0
 	RobjLoady @Bkg1,0
 	mov @Bkg1.z,2
-	invoke _get_image, IMAGE_BACKGROUND_ID
+	invoke _get_image, IMAGE_BACKGROUND_1_ID
 	mov @Bkg1.p_image,eax
 	m2m @Bkg1.vx,$state.global_vx
 	mov @Bkg1.vy,0
@@ -133,7 +133,7 @@ _init_state PROC uses ecx
 	RobjLoadx @Bkg2,WINDOW_WIDTH
 	RobjLoady @Bkg2,0
 	mov @Bkg2.z,2
-	invoke _get_image, IMAGE_BACKGROUND_ID
+	invoke _get_image, IMAGE_BACKGROUND_2_ID
 	mov @Bkg2.p_image,eax
 	m2m @Bkg2.vx,$state.global_vx
 	mov @Bkg2.vy,0
